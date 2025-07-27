@@ -43,7 +43,7 @@ def verificar_password(contrasena):
 
     mayuscula = False
     digito = False
-
+        
     for letra in contrasena:
         if letra.isupper():
             mayuscula = True
@@ -52,14 +52,14 @@ def verificar_password(contrasena):
         if letra.isdigit():
             digito = True
         
-        longitud = len(contrasena) <= 8
-        return mayuscula and digito and longitud
+    longitud = len(contrasena) <= 8
+    return mayuscula and digito and longitud
 contrasena = input("Ingrese la contraseña: ")
 verificacion = verificar_password(contrasena)
 
 if verificacion:
     print("La contraseña es valida")
-
+    
 else:
     print("La contraseña es invalida")
-
+    
