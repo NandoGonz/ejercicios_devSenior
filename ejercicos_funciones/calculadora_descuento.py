@@ -54,6 +54,6 @@ total_pago = calcular_descu(valor, para_descontar)
 
 # Mostramos el resultado
 if valor > 200000:
-    print(f"🎉 Has obtenido un descueto, total a pagar: {total_pago}")
+    print(f"🎉 Has obtenido un descuento, total a pagar: {total_pago}")
 else:
     print(f"🥹 No tiene descuetno debe cancelar: {total_pago}")
